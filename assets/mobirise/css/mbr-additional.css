@@ -1228,6 +1228,9 @@ a {
 .cid-tajoicP1tV .navbar-dropdown {
   position: relative !important;
 }
+.cid-tajoicP1tV .navbar-dropdown {
+  position: absolute !important;
+}
 .cid-tajoicP1tV .show .link,
 .cid-tajoicP1tV .show .mbr-iconfont,
 .cid-tajoicP1tV .show .phone {
@@ -1350,8 +1353,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #000000;
+  background: rgba(0, 0, 0, 0);
 }
 .cid-tajoicP1tV .navbar.opened {
   transition: all 0.3s;
